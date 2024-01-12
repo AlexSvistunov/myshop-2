@@ -1,0 +1,12 @@
+.navigation {
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__link {
+        padding: 5px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}

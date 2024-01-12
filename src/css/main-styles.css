@@ -1,0 +1,45 @@
+html {
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+
+body {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   min-height: 100vh;
+   background-color: #c1b8b84d;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.app {
+    
+}
+
+.app__container {
+    padding: 0 15px;    
+}
